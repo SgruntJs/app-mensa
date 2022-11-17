@@ -1,0 +1,20 @@
+{
+  "name": "app-mensa",
+  "version": "1.0.0",
+  "description": "management software stack Mean",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SgruntJs/app-mensa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SgruntJs/app-mensa/issues"
+  },
+  "homepage": "https://github.com/SgruntJs/app-mensa#readme"
+}
