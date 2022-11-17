@@ -18,6 +18,28 @@
   },
   "homepage": "https://github.com/SgruntJs/app-mensa#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "@babel/polyfill": "^7.8.7",
+    "express": "^4.18.1",
+    "mongoose": "^5.9.10",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.3"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "corejs": "2.0.0",
+          "useBuiltIns": "usage"
+        }
+      ]
+    ]
   }
 }
