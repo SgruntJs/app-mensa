@@ -4,6 +4,9 @@
   "description": "management software stack Mean",
   "main": "index.js",
   "scripts": {
+    "build-server": "babel src --out-dir dist --source-maps inline --copy-files --no-copy-ignored",
+    "server": "npm run build-server && node dist/app.js",
+    "dev-server": "nodemon --exec babel-node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
